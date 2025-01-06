@@ -7,7 +7,7 @@ export const LiveCaptions = ({ isLoading, response, error }) => {
       {error ? (
         <p className="text-red-400">{error}</p>
       ) : (
-        <div className="text-white">
+        <div className="text-[#722f37] font-medium text-lg">
           {isLoading ? (
             <TypingAnimation
               text="..."
