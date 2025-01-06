@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 body {
-  background-color: #333;
+  background-color: #efdfbb;
+}
+
+.nav {
+  border-radius: 50px;
+  background: #efdfbb;
+  box-shadow: 20px 20px 60px #cbbe9f, -20px -20px 60px #ffffd7;
 }
 
 @layer utilities {
